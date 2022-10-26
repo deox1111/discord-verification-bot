@@ -1,0 +1,14 @@
+{
+  "token": "",
+  "join_message": "hi, i'm a verification bot for deox.space",
+  "api_code": "",
+  "owners": [
+    786606810680786955
+  ],
+  "prefix": [
+    ";"
+  ],
+  "activity": "verifying people // deox.space",
+  "activity_type": "competing",
+  "status_type": "dnd"
+}
