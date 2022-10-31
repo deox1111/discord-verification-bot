@@ -28,8 +28,8 @@ class Verification(commands.Cog):
         r = requests.get(f"https://deox.space/panel/api?verifyCode={code}&discordID={ctx.author.id}&key={key}")
         verify = r.json()
         fields = [
-            {'name': 'verified?', 'value': verify['verified']},
-        ],
+            {'name': 'verified?', 'value': verify['verified']}
+        ]
 
         for field in fields:
             if field['value'] == 'yes': 
